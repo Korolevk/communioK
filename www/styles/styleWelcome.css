@@ -1,0 +1,167 @@
+*{
+    margin:0;
+    padding:0;
+    overflow:hidden;
+}
+
+.input{
+    display: inline-block;
+    width: 210px;
+    padding: 4px;
+    margin: 0;
+    outline: 0;
+    border: 1px solid #e1e8ed;
+    border-radius: 2px;
+}
+
+p, h1{
+    cursor: default;
+}
+
+html{
+    height: 768px;
+    background: url(http://test/images/bg.png) 100% 100% no-repeat;
+    background-size: cover;
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.65);
+    width: 100%;
+    height: 100%;
+}
+
+.header{
+    width: 100%;
+    height: 46px;
+    background-color: #2E2C2D;
+}
+
+.bg-image{
+    height: 768px;
+    background: url(http://test/images/bg.png) 100% 100% no-repeat;
+    background-size: cover;
+}
+
+.bg-alpha {
+    background-color: rgba(0, 0, 0, 0.65);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.logo{
+    margin-left: 75px;
+    margin-top: 3px;
+}
+
+
+.centerTable{
+    margin-top:40px;
+}
+
+
+.centerTable .td {
+    padding: 0px 0px 3px 0px;
+}
+
+.centerTable .td1 {
+    padding: 0px 0px 10px 0px;
+}
+
+.centerTable .formLogin{
+    background-color: #fff;
+    padding: 10px 10px 5px 10px;
+    border-radius: 3px;
+}
+
+.centerTable .formSignup {
+    background-color: #fff;
+    padding: 10px 10px 5px 10px;
+    border-radius: 3px;
+}
+
+.check {
+    color: #8899a6;
+    display: inline;
+    font-size: 13px;
+    font-family: sans-serif;
+    margin: 0;
+    cursor: pointer;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.6);
+}
+
+.forgetPass {
+    color: #2b7bb9;
+    display: inline;
+    font-size: 13px;
+    font-family: sans-serif;
+    margin: 0;
+    cursor: pointer;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+    margin-left: 25px;
+}
+
+.forgetPass:hover {
+    text-decoration: underline;
+}
+
+.buttonLogin {
+    color: #fff;
+    background-color: #55acee;
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.05));
+    border: 1px solid #3b88c3;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15);
+    padding: 5px 15px;
+    cursor: pointer;
+    border-radius: 3px;
+    margin-left: 152px;
+    outline: none;
+}
+
+.buttonSignup {
+    color: #fff;
+    background-color: #EF282F;
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.05));
+    border: 1px solid #9E0D12;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15);
+    padding: 5px 15px;
+    cursor: pointer;
+    border-radius: 3px;
+    margin-left: 111px;
+    outline: none;
+}
+
+.centerTable .h1{
+    width: 560px;
+    margin-left: 0%;
+    font-size: 26px;
+    line-height: 100%;
+    font-family: 'Proxima Nova Light',Arial,'Helvetica Neue',Helvetica,sans-serif;
+    -ms-transform: translate(0,30px);
+    color: #FFF;
+}
+
+.centerTable .p {
+    margin-left: 0%;
+    font-size: 16px;
+    line-height: 40px;
+    font-family: 'Proxima Nova Light', Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    -ms-transform: translate(0, 30px);
+    color: #FFF;
+}
+
+.textSignup{
+    font-family: sans-serif;
+    font-size: 13px;
+    padding: 4px 0px;
+}
+
+.footer p {
+    line-height: 150px;
+    font-family: 'Proxima Nova Light', Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    -ms-transform: translate(0, 30px);
+    color: #FFF;
+    font-size: 15px;
+    text-align: center;
+}
